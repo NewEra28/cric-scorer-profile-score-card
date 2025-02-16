@@ -17,4 +17,8 @@ public class CricScorerServiceConstants {
     public static final String UNIQUE_IDENTIFIER = "unique_identifier";
     public static final String CREATED_AT = "created_at";
     public static final String UPDATED_AT = "updated_at";
+
+    //End Point
+    public static final String BASE_URL = "/newEra/crick-scorer";
+    public static final String PROFILE_CREATION_URL = "/profile/creation";
 }

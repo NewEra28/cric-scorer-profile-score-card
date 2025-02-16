@@ -37,6 +37,4 @@ public class PlayerProfile extends Base{
     private String favouritePlayer;
     private String favouriteTeam;
     private String description;
-    @Column(name = "is_profile_completed", nullable = false)
-    private boolean isProfileCompleted = false;
 }

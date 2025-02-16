@@ -1,6 +1,7 @@
 package com.newera.cric.scorer.entity;
 
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.*;
@@ -24,4 +25,5 @@ public class UserDetail extends Base {
     private String phoneNumber;
     private String uniqueIdentifier;
     private boolean isActive;
+    private boolean isProfileCompleted = false;
 }
